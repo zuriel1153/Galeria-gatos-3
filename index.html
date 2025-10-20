@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería con Lightbox</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Galería de Fotos con Efecto Lightbox</h1>
+    <p>Haz clic en una imagen para ampliarla</p>
+  </header>
+
+  <section class="galeria">
+    <img src="Img/Meowl Angel.jpg" alt="Imagen 1">
+    <img src="Img/Gato1.jpg" alt="Imagen 2">
+    <img src="Img/Gato2.jpg" alt="Imagen 3">
+    <img src="Img/Gato3.jpg" alt="Imagen 4">
+  </section>
+
+  <div id="lightbox" class="lightbox">
+    <span class="cerrar">&times;</span>
+    <img class="lightbox-contenido" id="imagen-ampliada">
+    <div id="caption"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
