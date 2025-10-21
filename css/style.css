@@ -1,13 +1,13 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background: #3A22D6;
+  background: #B58D4E;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
 header {
-  background-color: #E62F09;
+  background-color: #E0C394;
   color: white;
   padding: 20px;
 }
@@ -64,3 +64,4 @@ header {
   text-align: center;
   margin-top: 10px;
 }
+
